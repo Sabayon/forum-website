@@ -1,0 +1,1 @@
+../private/phpbb_config.php
