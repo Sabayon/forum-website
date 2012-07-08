@@ -1,0 +1,11 @@
+Subject: Foches engadido a este grupo de usuarios
+
+Noraboa,
+
+Foches engadido ao grupo "{GROUP_NAME}" de "{SITENAME}".
+Esta acción foi efectuadaa polo xefe do grupo ou polo administrador do sitio. Contacta con eles para obter máis información.
+
+Podes ver a información dos teus grupos aquí:
+{U_GROUP}
+
+{EMAIL_SIG}

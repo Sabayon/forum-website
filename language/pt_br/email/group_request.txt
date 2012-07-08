@@ -1,0 +1,10 @@
+Subject: Um requerimento de entrada em um grupo foi realizado
+
+Prezado {USERNAME},
+
+O usuário "{REQUEST_USERNAME}" o convidou para participar do grupo "{GROUP_NAME}", o qual você modera em "{SITENAME}".
+Para aprovar ou negar este pedido de participação do grupo, favor visite o seguinte atalho:
+
+{U_PENDING}
+
+{EMAIL_SIG}

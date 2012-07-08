@@ -1,0 +1,65 @@
+/*  Breadcrumbs
+ - -------------------- */
+#breadcrumb {
+    background-color: #FFF;
+    margin: 0.5em 1em;
+    font: 1em sans-serif;
+    height: 2em;
+	line-height: 2em;
+    color:#9b9b9b;
+    border:solid 1px #CCC;
+	clear: both;
+}
+
+#breadcrumb ul {
+    margin-left: 0.5em;
+}
+
+#breadcrumb ul li {
+    list-style-type:none;
+    float:left;
+    padding-left:0.5em;
+}
+
+#breadcrumb ul li a {
+    display:block;
+    background-image:url('./images/sabayon/bc_separator.png');
+    background-repeat:no-repeat;
+    background-position:right;
+    padding-right: 1.5em;
+    text-decoration: none;
+    color:#454545;
+}
+
+#breadcrumb ul li a:hover {
+    color: #2058B2;
+}
+
+#breadcrumb ul li a#breadcrumb_home {
+    font-weight: bold;
+}
+
+p.datetime {
+    margin: 0 0.5em 0 0;
+    float: right;
+    white-space: nowrap;
+    font-size: 1em;
+}
+
+
+/*  Search Bar (View Active Topics etc)
+ * --------------------- */
+
+div#searchbar {
+    padding-right: 0.5em;
+}
+
+div#searchbar span {
+	margin: 0;
+	float: right;
+	white-space: nowrap;
+}
+
+.rtl div#searchbar {
+	float: left;
+}

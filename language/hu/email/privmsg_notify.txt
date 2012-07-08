@@ -1,0 +1,14 @@
+Subject: Új privát üzeneted érkezett - "{FORUM_NAME}"
+
+Kedves {USERNAME}!
+
+A "{SITENAME}" oldalon új privát üzenetet kaptál, melynek feladója "{AUTHOR_NAME}". Az üzenet témája:
+{SUBJECT}
+
+A következő linkre kattintva tekintheted meg az érkezett üzenetet:
+
+{U_INBOX}
+
+Ezt az e-mailt azért kapod, mert beállítottad, hogy privát üzenet érkezéséről értesülni szeretnél. Ne felejtsd el, hogy bármikor kikapcsolhatod az ilyen értesítéseket a felhasználói vezérlőpultban.
+
+{EMAIL_SIG}

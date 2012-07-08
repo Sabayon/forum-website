@@ -1,0 +1,7 @@
+Subject: Raportimi u mbyll - "{POST_SUBJECT}"
+
+Përshëndetje {USERNAME},
+
+Ju po merrni këtë lajmërim sepse raportimi që ju bëtë për postimin "{POST_SUBJECT}" në "{TOPIC_TITLE}" tek "{SITENAME}" u mor parasysh nga një moderator ose administrator. Pas kësaj raportimi u mbyll. Nëse keni pyetje të mëtejshme kontaktoni {CLOSER_NAME} me një mesazh privat.
+
+{EMAIL_SIG}

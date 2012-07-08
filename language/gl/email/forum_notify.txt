@@ -1,0 +1,19 @@
+Subject: Notificación de post ao foro – "{FORUM_NAME}"
+
+Ola {USERNAME},
+
+Estás a recibir esta notificación por estares subscrito ao foro, "{FORUM_NAME}" en "{SITENAME}". Este foro recibiu unha nova resposta ao tema "{TOPIC_TITLE}" dende a túa última visita. Podes empregar a seguinte ligazón para veres a última resposta sen ler. Non se che enviarán máis notificacións até visitares o tema.
+
+{U_NEWEST_POST}
+
+Se queres ver o tema, preme na seguinte ligazón:
+{U_TOPIC}
+
+Se queres ver o foro, preme na seguinte ligazón:
+{U_FORUM}
+
+Se non desexas seguir subscrito a este foro podes premer na ligazón "Deixar de seguir este foro" que se atopa na parte superior do foro ou premendo na seguinte ligazón:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

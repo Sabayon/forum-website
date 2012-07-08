@@ -1,0 +1,8 @@
+Subject: Informe pechado – "{POST_SUBJECT}"
+
+Ola {USERNAME},
+
+Estás a recibir esta notificación porque o informe que enviaches verbo da mensaxe "{POST_SUBJECT}" de "{TOPIC_TITLE}" en "{SITENAME}" foi comprobado por un moderador ou administrador. O informe foi posteriormente pechado. Se tes máis preguntas contacta con {CLOSER_NAME} cunha mensaxe persoal.
+
+
+{EMAIL_SIG}

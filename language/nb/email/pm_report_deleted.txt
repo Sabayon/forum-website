@@ -1,0 +1,8 @@
+Subject: Rapport slettet - "{PM_SUBJECT}"
+
+Hei {USERNAME}
+
+Du mottar denne meldingen fordi rapporten du arkiverte angående den private meldingen "{PM_SUBJECT}" på "{SITENAME}" ble slettet av en moderator eller administrator.
+
+
+{EMAIL_SIG}

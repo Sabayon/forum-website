@@ -1,0 +1,7 @@
+Subject: Jelentés lezárva - "{POST_SUBJECT}"
+
+Kedves {USERNAME}!
+
+Ezt az üzenetet azért kapod, mert a "{SITENAME}" oldalon, a "{POST_SUBJECT}" hozzászólást a "{TOPIC_TITLE} témában jelentetted az adminisztrátorok és moderátorok felé. A jelentésed kezelése befejeződött, s ezzel lezárult. Amennyiben további kérdéseid vannak, lépj kapcsolatba privát üzenetben a jelentés lezárójával: {CLOSER_NAME}.
+
+{EMAIL_SIG}

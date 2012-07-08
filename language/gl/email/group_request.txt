@@ -1,0 +1,10 @@
+Subject: Foi realizada unha petición para unirse ao teu grupo.
+
+Prezado {USERNAME},
+
+O usuario "{REQUEST_USERNAME}" solicitou unirse ao grupo "{GROUP_NAME}" que ti moderas en "{SITENAME}".
+Para aprobar ou rexeitar esta petición, por favor, visita a seguinte ligazón:
+
+{U_PENDING}
+
+{EMAIL_SIG}

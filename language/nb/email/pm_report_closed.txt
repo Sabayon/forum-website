@@ -1,0 +1,8 @@
+Subject: Rapport stengt - "{PM_SUBJECT}"
+
+Hei {USERNAME}
+
+Du mottar denne meldingen fordi rapporten du arkiverte angående den private meldingen "{PM_SUBJECT}" på "{SITENAME}" har behandlet av en moderator eller administrator. Rapporten er nå stengt. Hvis du har ytterligere spørsmål, send {CLOSER_NAME} en privat melding.
+
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Subject: Obvestilo o neaktivnosti uporabniškega računa
+
+Pozdravljeni, {USERNAME},
+
+Dne {REGISTER_DATE} ste si ustvarili uporabniški račun na spletni strani "{SITENAME}". Do danes ga še niste aktivirali, kar je potrebno storiti, preden se lahko prijavite na spletno stran. Za aktivacijo kliknite na spodnjo povezavo:
+
+{U_ACTIVATE}
+
+Hvala vam za registracijo, veselimo se vašega obiska.
+
+{EMAIL_SIG}

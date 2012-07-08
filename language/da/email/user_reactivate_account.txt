@@ -1,0 +1,19 @@
+Subject: Genaktiver din konto på "{SITENAME}"
+
+En boardadministrator har forlangt en genaktivering af din konto, den er derfor ikke aktiv i øjeblikket.
+Følg venligst nedenstående trin for at udføre denne genaktivering.
+
+Gem denne email til fremtidig brug. Din kontoinformation er følgende:
+
+----------------------------
+Brugernavn: {USERNAME}
+----------------------------
+
+Dit kodeord er gemt krypteret og sikkert i vores database, og kan derfor ikke genfindes. Glemmer du kodeordet, er du istand til at nulstille det ved brug af emailadressen knyttet til din konto.
+
+Klik venligst på nedenstående link for at genaktivere din konto:
+
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

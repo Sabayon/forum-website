@@ -1,0 +1,9 @@
+Subject: {SITENAME} - Konto aktywowane
+
+Witaj {USERNAME},
+
+Twoje konto zostało aktywowane, możesz już się zalogować.
+
+Adres forum: {U_BOARD}
+
+{EMAIL_SIG}

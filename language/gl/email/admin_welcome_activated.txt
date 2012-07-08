@@ -1,0 +1,9 @@
+Subject: Conta activada
+
+Ola {USERNAME},
+
+A túa conta de "{SITENAME}" ven de ser activada, podes iniciar unha sesión empregando o nome de usuario e contrasinal que recibiches nun correo-e anterior.
+
+O teu contrasinal foi gardado de xeito seguro no noso banco de datos e non pode ser recuperado. No caso de o esqueceres, poderás reinicialo empregando o enderezo de correo-e asociado coa túa conta.
+
+{EMAIL_SIG}

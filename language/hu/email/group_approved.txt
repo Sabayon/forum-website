@@ -1,0 +1,10 @@
+Subject: Kérelmed elfogadásra került
+
+Gratulálunk!
+
+A csatlakozási kérelmed a "{SITENAME}" oldalon a "{GROUP_NAME}" csoportba elfogadásra került.
+Kattints a következő linke, hogy megtekintsd a csoporttagságod részleteit.
+
+{U_GROUP}
+
+{EMAIL_SIG}

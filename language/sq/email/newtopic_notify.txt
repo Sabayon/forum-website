@@ -1,0 +1,13 @@
+Subject: Temë e re në "{FORUM_NAME}"
+
+Përshëndetje {USERNAME},
+
+Ju po merrni këtë lajmërim pasi ju jeni abonuar në forumin "{FORUM_NAME}" në "{SITENAME}". Në forum ka një temë të re që nga vizita juaj e fundit, "{TOPIC_TITLE}". Ju mund të perdorni linkun e mëposhtem për të parë forumin. Ju nuk do të merrni më lajmërime për këtë forum deri sa t'a vizitoni atë.
+
+{U_FORUM}
+
+Nëse nuk dëshironi të merrni më njoftime nga ky forum ju mund të klikoni "Hiq abonimin e forumit" në forumin përkatës, ose duke klikuar linkun e mëposhtëm:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

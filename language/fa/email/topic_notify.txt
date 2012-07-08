@@ -1,0 +1,55 @@
+Subject: Topic reply notification - "{TOPIC_TITLE}" پاسخ به موضوع
+
+==================================
+++++++++++ Farsi +++++++++++++++
+==================================
+
+سلام {USERNAME}
+
+به موضوعی که شما تقاضای پیگیری آن را داده بودید پاسخی ارسال شده.
+
+لطفا توجه کنید ممکن است به این موضوع پاسخ های دیگری داده شود اما تازمانی که شما وارد سایت نشوید به هیچ وجه اطلاعیه دیگری در مورد این موضوع به شما ارسال نخواهد شد.
+
+موضوع مشترک شده : "{TOPIC_TITLE}"
+سایت مربوطه : "{SITENAME}"
+
+
+برای دیدن جدید ترین پست ارسال شده روی لینک زیر کلیک کنید :
+
+{U_NEWEST_POST}
+
+برای مشاهده تاپیک روی لینک زیر کلیک کنید :
+
+{U_TOPIC}
+
+برای مشاهده انجمن مربوط به این ارسال، روی لینک زیر کلیک کنید :
+
+{U_FORUM}
+
+اگر دیگر نمی خواهید این موضوع را پیگیری کنید روی لینک زیر کلیک کنید :
+
+{U_STOP_WATCHING_TOPIC}
+
+
+==================================
+++++++++++ ENGLISH +++++++++++++++
+==================================
+
+Hello {USERNAME},
+
+You are receiving this notification because you are watching the topic, "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+
+If you want to view the newest post made since your last visit, click the following link:
+{U_NEWEST_POST}
+
+If you want to view the topic, click the following link:
+{U_TOPIC}
+
+If you want to view the forum, click the following link:
+{U_FORUM}
+
+If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

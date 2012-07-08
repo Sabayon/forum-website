@@ -1,0 +1,12 @@
+Subject: Tema zavrnjena - "{TOPIC_TITLE}"
+
+Pozdravljeni, {USERNAME},
+
+To sporočilo ste prejeli, ker je bila vaša tema "{TOPIC_TITLE}" na spletni strani "{SITENAME}" zavrnjena s strani moderatorja oz. administratorja.
+
+Spodaj je naveden razlog za zavrnitev teme:
+
+{REASON}
+
+
+{EMAIL_SIG}

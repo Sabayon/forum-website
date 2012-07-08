@@ -1,0 +1,8 @@
+Subject: Notificação deletada — “{POST_SUBJECT}”
+
+Olá {USERNAME},
+
+Você está recebendo esta notificação porque a mensagem que você reportou no “{POST_SUBJECT}” em “{TOPIC_TITLE}” em “{SITENAME}” foi deletada por um moderador ou administrador.
+
+
+{EMAIL_SIG}

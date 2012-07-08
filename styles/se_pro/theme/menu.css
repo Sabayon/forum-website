@@ -1,0 +1,132 @@
+/*
+  phpBB 3.0 Style Sheet
+	Style name:	proSilver
+	Copyright 2008 Kamahl http://www.hardheavy.sk/ kamahl19@gmail.com
+*/
+
+.header-bar {
+        color: #FFFFFF;
+        padding: 0 5px;
+        height: 140px;
+        background-color: #202020;
+        background-position: top;
+}
+
+#board-description {
+	float: left;
+	width: 100%;
+}
+
+#board-description h1 {
+	margin-right: 0;
+}
+
+#board-description span {
+	display: none;
+}
+
+div.header-bar span.corners-top {
+    background-image: url("{T_THEME_PATH}/images/corners_left2.png");
+}
+
+div.header-bar span.corners-top span {
+    background-image: url("{T_THEME_PATH}/images/corners_right2.png");
+}
+
+#menu { 
+ margin: 1px 0 4px 0;
+  height: 30px;
+  background: url("{T_THEME_PATH}/images/menu/menu_bg.gif") repeat-x;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu_corner {
+  float: left;
+  display: block;
+  width: 20px;
+  height: 30px;
+  background: url("{T_THEME_PATH}/images/menu/menu_corner.gif") no-repeat;
+}
+
+#menu_corner_right {
+  float: right;
+  display: block;
+  width: 10px;
+  height: 30px;
+  background: url("{T_THEME_PATH}/images/menu/menu_corner_right.gif") no-repeat;
+}
+
+#menu span {
+}
+
+.menu_button {
+  height: 30px;
+  float: left;
+  padding-right:5px;
+}
+
+.menu_button_active {
+  height: 30px;
+  float: left;
+  padding-right:5px;
+}
+
+.menu_button a {
+display: block;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 7px 5px 7px 5px;
+	background: url("{T_THEME_PATH}/images/menu/button.gif") top left repeat-x;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.menu_button a:hover {
+	background: url("{T_THEME_PATH}/images/menu/button_active.gif") top left repeat-x;
+	color: #000000;
+	padding: 7px 5px 7px 5px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.menu_button_active a {
+   display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 7px 5px 7px 5px;
+	background: url("{T_THEME_PATH}/images/menu/button_active.gif") 0 -30px repeat-x;
+	color: maroon;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.menu_button_active a:hover {
+	background: url("{T_THEME_PATH}/images/menu/button_active.gif") top left repeat-x;
+	color: #000000;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+#top-search {
+  float: right;
+  width: 160px;
+  height: 30px;
+  background: url("{T_THEME_PATH}/images/menu/menu_search.gif") no-repeat;
+}
+
+.search-input {
+  position: relative;
+  top: 8px;
+  left: 25px;
+  float: left;
+  width: 115px;
+  background-color: #fff;
+  border: none;
+}

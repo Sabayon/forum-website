@@ -1,0 +1,11 @@
+Subject: Dodani ste bili v novo uporabniško skupino
+
+Čestitamo,
+
+Dodani ste bili v uporabniško skupino "{GROUP_NAME}" na spletni strani "{SITENAME}".
+Dodal vas je vodja skupine oz. administrator strani - za več informacij kontaktirajte vodjo oz. administratorja strani.
+
+Informacije o uporabniški skupini lahko vidite na spodnji povezavi:
+{U_GROUP}
+
+{EMAIL_SIG}

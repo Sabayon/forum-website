@@ -1,0 +1,10 @@
+Subject: Kërkesa juaj është miratuar
+
+Urime,
+
+Kërkesa juaj për t'u bashkuar me grupin "{GROUP_NAME}" në "{SITENAME}" është miratuar.
+Klikoni linkun e mëposhtëm për të parë antarsimin tuaj në grup.
+
+{U_GROUP}
+
+{EMAIL_SIG}

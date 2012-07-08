@@ -1,0 +1,10 @@
+Subject: Kërkesë për tu bashkuar në grup
+
+Përshendetje {USERNAME},
+
+Një përdorues ka bërë kërkesë për tu bashkuar me grupin "{GROUP_NAME}" që ju moderoni në "{SITENAME}".
+Për të aprovuar ose refuzuar këtë kërkesë për antarësim në grup ju lutemi të vizitoni linkun e mëposhtëm:
+
+{U_PENDING}
+
+{EMAIL_SIG}

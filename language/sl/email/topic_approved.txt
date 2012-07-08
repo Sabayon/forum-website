@@ -1,0 +1,11 @@
+Subject: Tema odobrena - "{TOPIC_TITLE}"
+
+Pozdravljeni, {USERNAME},
+
+To sporočilo ste prejeli, ker je bila vaša tema "{TOPIC_TITLE}" na spletni strani "{SITENAME}" odobrena s strani moderatorja oz. administratorja.
+
+Za ogled teme kliknite na spodnjo povezavo.
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

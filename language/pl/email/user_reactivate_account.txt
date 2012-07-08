@@ -1,0 +1,10 @@
+Subject: {SITENAME} - Aktywuj ponownie swoje konto
+
+Witaj {USERNAME},
+
+Administrator forum poprosił o ponowną aktywację Twojego konta.
+
+Zanim będziesz mógł/mogła się zalogować, musisz je aktywować, klikając na poniższy link:
+{U_ACTIVATE}
+
+{EMAIL_SIG}

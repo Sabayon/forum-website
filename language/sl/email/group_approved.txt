@@ -1,0 +1,10 @@
+Subject: Vaša zahteva je bila odobrena
+
+Čestitamo,
+
+Vaša zahteva za pridružitev v uporabniško skupino "{GROUP_NAME}" na spletni strani "{SITENAME}" je bila odobrena.
+Za seznam članov v skupini kliknite na spodnjo povezavo:
+
+{U_GROUP}
+
+{EMAIL_SIG}

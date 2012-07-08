@@ -1,0 +1,21 @@
+Subject:  Përgjigjuni postimit - "{TOPIC_TITLE}"
+
+Përshëndetje {USERNAME},
+
+Sapo i janë përgjigjur temës në të cilën ju jeni abonuar, "{TOPIC_TITLE}" në forumin "{SITENAME}". Mund të jenë postuar përgjigje të tjera gjithashtu, por ju nuk do të merrni njoftime të tjera derisa ju të vizitoni forumin përsëri.
+
+Tema dhe postimi i fundit ndodhen këtu:
+{U_NEWEST_POST}
+
+Tema ndodhet këtu::
+{U_TOPIC}
+
+Forumi ndodhet këtu:
+{U_FORUM}
+
+{EMAIL_SIG}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Informacion për të ndërprerë abonimin:
+
+Për të shkëputur abonimin nga kjo temë, ju lutemi vizitoni këtë faqe:
+{U_STOP_WATCHING_TOPIC}

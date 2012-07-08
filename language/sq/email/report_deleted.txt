@@ -1,0 +1,8 @@
+Subject: Raportimi u fshi - "{POST_SUBJECT}"
+
+Përshëndetje {USERNAME},
+
+Ju po merrni këtë lajmërim sepse raportimi që ju bëtë për postimin "{POST_SUBJECT}" në "{TOPIC_TITLE}" tek "{SITENAME}" u fshi nga një moderator ose administrator.
+
+
+{EMAIL_SIG}

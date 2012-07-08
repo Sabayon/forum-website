@@ -1,0 +1,10 @@
+Subject: {SITENAME} - {REQUEST_USERNAME} poprosił o przyjęcie do grupy {GROUP_NAME}
+
+Witaj {USERNAME},
+
+Użytkownik "{REQUEST_USERNAME}" poprosił o przyjęcie do grupy "{GROUP_NAME}", której jesteś liderem.
+
+Aby zaakceptować lub odrzucić tę prośbę, kliknij tutaj:
+{U_PENDING}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+
+Ola {TO_USERNAME},
+
+A seguinte mensaxe foiche enviada por {FROM_USERNAME} a través da túa conta en "{SITENAME}". Se esta mensaxe é spam, contén insultos ou outros comentarios que consideres ofensivos, por favor, contacta co xestor do sitio do taboleiro no seguinte enderezo:
+
+{BOARD_CONTACT}
+
+Inclúe esta mensaxe completa. Ten en conta que o enderezo do remitente foi establecido para a conta IM do taboleiro.
+
+A mensaxe que che enviaron é a seguinte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

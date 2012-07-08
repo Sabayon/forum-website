@@ -1,0 +1,17 @@
+Subject: “{SITENAME}” — Avisar um amigo por Email
+
+Olá {TO_USERNAME},
+
+Este email foi enviado de “{SITENAME}” por {FROM_USERNAME} que achou que você poderia se interessar pelo seguinte tópico:
+
+{TOPIC_NAME}
+
+Você pode encontrar o tópico no link abaixo:
+
+{U_TOPIC}
+
+Uma mensagem de {FROM_USERNAME} foi incluída abaixo. Note que esta mensagem não foi lida ou aprovada por um administrador. Se você quiser reclamar do recebimento da mesma, favor entrar em contato com o administrador pelo e-mail {BOARD_EMAIL}. Envie a mensagem e os cabeçalhos quando entrar em contato.
+
+----------
+
+{MESSAGE}

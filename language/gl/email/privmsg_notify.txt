@@ -1,0 +1,15 @@
+Subject: Recibida unha nova mensaxe privada
+
+Ola {USERNAME},
+
+Recibiches unha nova mensaxe privada de "{AUTHOR_NAME}" na túa conta en "{SITENAME}" co seguinte asunto:
+
+{SUBJECT}
+
+Podes ver a túa nova mensaxe premendo na seguinte ligazón:
+
+{U_INBOX}
+
+Solicitaches ser avisado destos eventos, pero lembra que sempre podes escoller non seres notificado de novas mensaxes seleccionando as opcións axeitadas no teu perfil.
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+{MESSAGE}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Mesazhi është dërguar nga faqja "{SITENAME}". Nëqoftëse ky mesazh konsiderohet si spam, abuziv ose komente ofenduese, ju lutem kontaktoni adresën e mëposhtme:
+
+{CONTACT_EMAIL}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{EMAIL_SIG}

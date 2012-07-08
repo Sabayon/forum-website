@@ -1,0 +1,7 @@
+Subject: {SITENAME} - Zgłoszenie usunięte - "{PM_SUBJECT}"
+
+Witaj {USERNAME},
+
+Wysłane przez Ciebie zgłoszenie dotyczące wiadomości "{PM_SUBJECT}" zostało usunięte przez moderatora lub administratora.
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Subject: Muistutus tunnusten aktivoinnista
+
+Terve {USERNAME},
+
+Tämä on muistutus, että tunnuksesi "{SITENAME}" sivustolla, jotka ovat rekisteröity {REGISTER_DATE} ovat edelleen aktivoimattomat. Ole hyvä ja klikkaa alapuolella olevaa linkkiä mikäli haluat aktivoida tunnuksesi.
+ 
+{U_ACTIVATE}
+
+Kiitos, että rekisteröidyit "{SITENAME}" sivustolle. Odotamme osallistumistasi keskusteluihin.
+
+{EMAIL_SIG}

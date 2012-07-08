@@ -1,0 +1,19 @@
+Subject: phpBB3 zainstalowane
+
+Witaj {USERNAME},
+
+Gratulacje!
+
+Właśnie zainstalowałeś/aś swoje własne forum oparte na skrypcie phpBB3.
+
+Adres: {U_BOARD}
+
+Twoje hasło zostało bezpiecznie zaszyfrowane w bazie danych i jego odzyskanie jest niewykonalne. Jeśli je zapominsz, będziesz mógł/mogła poprosić o nowe, używając adresu e-mail powiązanego z kontem.
+
+Przydatne informacje o phpBB możesz znaleźć w folderze "docs" i na polskiej stronie WWW skryptu:
+http://phpbb3.pl/
+
+Aby Twoje forum było bezpieczne zalecamy aktualizowanie go do najnowszej wersji phpBB. Jeśli chcesz otrzymywać powiadomienia o nowych wydaniach phpBB3, zasubskrybuj poniższy kanał Atom za pomocą czytnika RSS/Atom:
+http://phpbb3.pl/feed.php?f=676
+
+{EMAIL_SIG}

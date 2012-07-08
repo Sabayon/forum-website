@@ -1,0 +1,7 @@
+Subject: Tema zaklenjena - "{POST_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+To sporočilo ste prejeli zaradi vsebine v prispevku "{POST_SUBJECT}" v temi "{TOPIC_TITLE}" na spletni strani "{SITENAME}", ki je bila obravnavana s strani moderatorjev oz. administratorjev. Tema je bila po obravnavanju vsebine zaklenjena. Če imate kakšno vprašanje, kontaktirajte {CLOSER_NAME} prek zasebnih sporočil.
+
+{EMAIL_SIG}

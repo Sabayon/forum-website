@@ -1,0 +1,7 @@
+Subject: A túa conta foi desactivada
+
+Ola {USERNAME},
+
+A túa conta en "{SITENAME}" foi desactivada, probabelmente por cambios realizados no teu perfil. Para poder iniciar sesión nos foros, os/as administradores/as deben activar a conta. Recibirás outro correo de notificación cando isto ocorra.
+
+{EMAIL_SIG}

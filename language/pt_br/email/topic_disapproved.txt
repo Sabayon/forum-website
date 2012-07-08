@@ -1,0 +1,12 @@
+Subject: Tópico não aprovado — “{TOPIC_TITLE}”
+
+Olá {USERNAME},
+
+Você está recebendo esta notificação porque seu tópico “{TOPIC_TITLE}” em “{SITENAME}” não foi aprovado por um moderador ou administrador.
+
+A razão da não-aprovação encontra-se a seguir:
+
+{REASON}
+
+
+{EMAIL_SIG}

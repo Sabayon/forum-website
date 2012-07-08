@@ -1,0 +1,10 @@
+Subject: {SITENAME} - Zostałeś/aś przyjęty/a do grupy {GROUP_NAME}
+
+Gratulujemy,
+
+Zostałeś/aś przyjęty/a do grupy "{GROUP_NAME}"!
+
+Informacje o swoich grupach możesz zobaczyć tutaj:
+{U_GROUP}
+
+{EMAIL_SIG}

@@ -1,0 +1,19 @@
+<div id="breadcrumb">
+    <ul>
+	<li><a id="breadcrumb_home" href="{U_INDEX}">{L_INDEX}</a></li><!-- BEGIN navlinks -->
+	<li><a class="breadcrumb_nav" href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a></li><!-- END navlinks -->
+    </ul>
+	
+	<!-- IF S_DISPLAY_SEARCH -->
+	<div id="searchbar">
+		<span>
+		    <a href="{U_SEARCH_UNANSWERED}">{L_SEARCH_UNANSWERED}</a> | <a href="{U_SEARCH_ACTIVE_TOPICS}">{L_SEARCH_ACTIVE_TOPICS}</a>
+		</span>
+		<!-- IF S_USER_LOGGED_IN -->
+			<span>
+			    <a href="{U_SEARCH_UNREAD}">{L_SEARCH_UNREAD}</a> | <a href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a> | <a href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a> |&nbsp;
+		        </span>
+		<!-- ENDIF -->
+	</div>
+<!-- ENDIF -->
+</div>

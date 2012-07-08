@@ -1,0 +1,164 @@
+
+div.post_wrapper {
+	clear: both;
+	width: inherit;
+	margin: 1em 0;
+	padding: 0;
+/* Clearfix Yay! */
+	overflow:auto;
+}
+
+/* Header
+ ------------ */
+
+div.post_wrapper .post_header {
+	background-color: #444;
+	color: #FFF;
+	overflow:auto;
+}
+
+div.post_wrapper .post_header .post_header_left {
+	float: left;
+	height: inherit;
+	width: 150px;
+	margin-left: 0.5em;
+}
+
+div.post_wrapper .post_header .post_header_right {
+	margin-left: 150px;
+}
+
+div.post_title {
+	text-align: left;
+	float: left;
+	/* only to make it inline */
+	padding-left: 0.5em;
+}
+
+div.post_title h3 {
+	line-height: 2em;
+	white-space: nowrap;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+div.post_details {
+	float: right;
+	text-align: right;
+	margin-right: 0.5em;
+	overflow: hide;
+}
+
+div.post_details span.fakelink {
+	color: #E4EEFF;
+}
+
+div.post_img {
+	float: left;
+	margin: 0.5em;
+	line-height: 2em;
+}
+
+ul.post_options {
+	display: none;
+	overflow: visible;
+	margin: 0.8em 0 0 0.25em;
+}
+
+ul.post_options li {
+	display: inline;
+}
+
+ul.post_options li a, ul.post_options li span {
+	text-decoration: none;
+	border:1px solid #555;
+	background-color: #666;
+	padding: 0.25em;
+	cursor:pointer;
+	color: #E4EEFF;
+}
+
+ul.post_options li a:hover, ul.post_options li span:hover {
+	background-color: #777;
+}
+
+
+/* Author Online Offline
+ * - ----------- */
+
+p.postauthor {
+	color: #FFF;
+	font-weight: bold;
+}
+
+p.online_user {
+	color: #9ACD32;
+}
+
+p.offline_user {
+	color: #9D9D9D;
+}
+
+/* Layout
+ * ------------ */
+
+div.post_wrapper div.post_body_wrapper {
+	overflow:auto;
+	border: 1px solid #CCC;
+	border-top: none;
+	background-color: #FFF;
+	display: block;
+}
+
+div.post_wrapper .post_body_wrapper .post_content {
+	padding: 0.5em;
+	overflow:auto;
+}
+
+div.post_wrapper .post_body_wrapper .postbody {
+	margin-bottom: 0.5em;
+}
+
+/* Profile
+ * - ----------- */
+div.post_wrapper .post_body_wrapper .profile_container {
+	width: 140px;
+	float: left;
+	padding: 0 0.25em 0.5em 0.5em;
+	border-right: 1px dotted #CCC;
+	position: relative;
+}
+
+div.profile_more_details {
+	position: absolute;
+	z-index: 99;
+	left: 15em;
+	top: 0px;
+	width: 5em;
+	background-color: #FFF;
+	margin: 0.5em 0.5em 0.5em 0;
+	padding: 0.5em;
+	border: 1px solid #CCC;
+	border-left: none;
+	text-align: center;
+	overflow: auto;
+}
+p.hide_contact_details {
+	clear: both;
+}
+
+/* Signature
+ * - ----------- */
+
+span.sig_divider {
+	width: 99%;
+	height: 0;
+	border-top: 1px dashed #CCC;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+div.post_content div.signature {
+	clear: both;
+}

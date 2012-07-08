@@ -1,0 +1,20 @@
+Subject: Témafigyelés értesítés - "{FORUM_NAME}"
+
+Kedves {USERNAME}!
+
+Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon a "{TOPIC_TITLE}" téma figyelését kérted. A témába a legutóbbi látogatásod óta új hozzászólás érkezett. A következő linkre kattintva megtekintheted az azóta született hozzászólásokat. Több értesítést nem fogsz kapni, amíg meg nem tekinted a témát.
+
+Az utolsó látogatás óta érkezett legfrissebb hozzászólás megtekintéséhez kattints a következő linkre:
+{U_NEWEST_POST}
+
+A téma megtekintéséhez kattints a következő linkre:
+{U_TOPIC}
+
+A fórum megtekintéséhez kattints a következő linkre:
+{U_FORUM}
+
+Amennyiben a továbbiakban nem kívánod figyelni a témát, kattints a "Leiratkozás a témáról" linkre, melyet a fenti oldalon találsz, vagy egyszerűen kattints a következő linkre:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

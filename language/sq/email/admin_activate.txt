@@ -1,0 +1,14 @@
+Subject: Aktivizimi i llogarise së përdoruesit
+
+Përshëndetje,
+
+Llogaria e mbajtur nga "{USERNAME}" është ç'aktivizuar ose është e sapokrijuar, ju duhet të kontrolloni detajet e këtij përdoruesi (nëse kërkohet) dhe ta mirëmbani.
+
+Përdor linkun për të aktivizuar profilin e përdoruesit:
+{U_USER_DETAILS}
+
+Përdor linkun për të aktivizuar llogarinë:
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

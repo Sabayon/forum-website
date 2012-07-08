@@ -1,0 +1,12 @@
+Subject: Postim i pamiratuar - "{POST_SUBJECT}"
+
+Përshëndetje {USERNAME},
+
+Ju po merrni këtë lajmërim sepse postimi juaj "{POST_SUBJECT}" në "{SITENAME}" nuk u miratua nga një moderator ose administrator.
+
+Arsyeja e mëposhtme u dha për këtë mos miratim:
+
+{REASON}
+
+
+{EMAIL_SIG}

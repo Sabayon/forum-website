@@ -1,0 +1,18 @@
+Subject: Riaktivizoni llogarinë tuaj në "{SITENAME}"
+
+Një Administrator ka kërkuar që llogaria juaj të riaktivizohet. Llogaria juaj nuk është aktive për momentin. Ju lurtemi të ndiqni hapat e mëposhtëm për të riaktivizuar llogarinë tuaj.
+
+Ruani këtë email për kujtesen tuaj. Informacioni i llogarisë tuaj është si më poshtë:
+
+----------------------------
+Pseudonimi: {USERNAME}
+----------------------------
+
+Fjalëkalimi juaj është koduar në databazën tonë. Nëse e harroni, ju mund të kërkoni një fjalëkalim të ri, i cili do të duhet të aktivizohet në të njëjtën mënyrë si në këtë rast.
+
+Klikoni linkun e mëposhtëm për të riaktivizuar llogarinë tuaj:
+
+{U_ACTIVATE}
+
+
+{EMAIL_SIG}

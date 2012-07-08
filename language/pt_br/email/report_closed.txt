@@ -1,0 +1,8 @@
+Subject: Notificação fechada — “{POST_SUBJECT}”
+
+Olá {USERNAME},
+
+Você está recebendo esta notificação porque você reportou uma mensagem em “{POST_SUBJECT}” em “{TOPIC_TITLE}” em “{SITENAME}” foi verificada por um moderador ou administrador. A notificação foi fechada. Se você tiver dúvidas sobre algo, favor contatar {CLOSER_NAME} via Mensagem Privada.
+
+
+{EMAIL_SIG}

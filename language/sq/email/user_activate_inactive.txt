@@ -1,0 +1,7 @@
+Subject: Llogaria juaj është ç'aktivizuar
+
+Përshëndetje {USERNAME},
+
+Llogaria juaj tek "{SITENAME}" është ç'aktivizuar, ndoshta si pasojë e ndryshimeve të bëra në profilin tuaj. Administratori i bordit duhet ta aktivizojë para se ju të identifikoheni. Ju do të lajmëroheni me nje e-mail kur kjo të ndodhë.
+
+{EMAIL_SIG}

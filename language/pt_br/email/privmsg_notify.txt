@@ -1,0 +1,14 @@
+Subject: Você recebeu uma nova mensagem privada
+
+Olá {USERNAME},
+
+Você acaba de receber uma nova mensagem privada de “{AUTHOR_NAME}” para sua conta em "{SITENAME}" e você especificou que fosse notificado por este fato. Você poderá ver a mensagem privada clicando no seguinte atalho:
+
+{U_INBOX}
+
+Com o assunto:
+{SUBJECT}
+
+Lembre-se que você pode optar por não ser notificado sempre que receber novas mensagens escolhendo a configuração apropriada em seu perfil.
+
+{EMAIL_SIG}

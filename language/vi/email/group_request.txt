@@ -1,0 +1,9 @@
+Subject: Có yêu cầu tham gia vào nhóm của bạn
+
+Chào trưởng nhóm, "{USERNAME}"
+
+Thành viên "{REQUEST_USERNAME}" vừa gửi yêu cầu tham gia vào nhóm "{GROUP_NAME}" mà bạn đang điều hành tại "{SITENAME}".
+Để chấp thuận hay từ chối yêu cầu gia nhập nhóm này, hãy bấm vào liên kết dưới đây:
+{U_PENDING}
+
+{EMAIL_SIG}

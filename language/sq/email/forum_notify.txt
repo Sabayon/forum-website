@@ -1,0 +1,19 @@
+Subject: Postim i ri në - "{FORUM_NAME}"
+
+Përshëndetje {USERNAME},
+
+Ju po merrni këtë lajmërim pasi jeni abonuar tek forumi "{FORUM_NAME}" në "{SITENAME}". Ky forum ka patur një përgjigje në temën "{TOPIC_TITLE}" që nga vizita juaj e fundit. Ju mund të përdorni linkun e mëposhtëm për të parë përgjigjen e fundit të palexuar. Ju nuk do të merrni më njoftime për këtë forum derisa të vizitoni temën.
+
+{U_NEWEST_POST}
+
+Nëse doni të shikoni temën, klikoni linkun e mëposhtëm:
+{U_TOPIC}
+
+Nëse doni të shikoni forumin, klikoni linkun e mëposhtëm:
+{U_FORUM}
+
+Nëse nuk doni të merrni më njoftime për këtë forum, ju mund të klikoni "Hiq abonimin e temës" në forumin përkatës, ose mund të klikoni linkun e mëposhtëm:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

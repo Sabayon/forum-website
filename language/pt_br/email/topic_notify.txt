@@ -1,0 +1,20 @@
+Subject: Notificação de resposta ao tópico - {TOPIC_TITLE}
+
+Olá {USERNAME},
+
+Você está recebendo este email por estar acompanhando o tópico, "{TOPIC_TITLE}" em {SITENAME}. Este tópico recebeu uma resposta desde sua última visita. Você pode usar o seguinte atalho para ver as respostas feitas, e não lhe serão enviadas mais notificações enquanto você não visitar este tópico.
+
+Para ver novas postagens no fórum desde a sua última visita, clique no link abaixo:
+{U_NEWEST_POST}
+
+Se você quiser ver o tópico, clique no seguinte link:
+{U_TOPIC}
+
+Se você quiser ver o fórum, clique no seguinte link:  
+{U_FORUM}
+
+Se você não deseja mais observar este tópico, você poderá clicar no atalho "Parar de acompanhar este tópico" encontrado no final do tópico, ou clicando no seguinte link:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

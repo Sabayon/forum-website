@@ -1,0 +1,10 @@
+Subject: {SITENAME} - Wątek "{TOPIC_TITLE}" został odrzucony
+
+Witaj {USERNAME},
+
+Twój wątek "{TOPIC_TITLE}" został odrzucony przez moderatora lub administratora.
+
+Powód odrzucenia:
+{REASON}
+
+{EMAIL_SIG}

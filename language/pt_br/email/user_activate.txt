@@ -1,0 +1,9 @@
+Subject: Reative sua conta
+
+Olá {USERNAME},
+
+Sua conta em "{SITENAME}" foi desativada, pois informações vitais em seu perfil foram feitas. Para reativar sua conta você deverá clicar no atalho abaixo:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

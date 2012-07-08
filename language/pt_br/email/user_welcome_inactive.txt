@@ -1,0 +1,22 @@
+﻿Subject: Boas vindas ao "{SITENAME}"
+
+{WELCOME_MSG}
+
+Por favor, guarde este email para posteriores consultas. As informações da sua conta são as seguintes:
+
+----------------------------
+Usuário: 	{USERNAME}
+Senha: 		{PASSWORD}
+
+URL do Fórum:   {U_BOARD}
+----------------------------
+
+A sua conta encontra-se atualmente inativa. Você não poderá usá-la enquanto não visitar o seguinte endereço:
+
+{U_ACTIVATE}
+
+Por favor, não se esqueça que sua senha foi codificada em nosso banco de dados e não podemos recuperá-la para lhe fornecer. No entanto, caso se esqueça da senha você poderá solicitar uma nova, sendo ativada da mesma forma desta conta.
+
+Obrigado por registrar-se.
+
+{EMAIL_SIG}

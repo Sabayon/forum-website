@@ -1,0 +1,13 @@
+Subject: Påminnelse om manglende brukerkontoaktivering
+
+Hei {USERNAME},
+
+Den {REGISTER_DATE} registrerte du en ny brukerkonto på siden "{SITENAME}". Du har ennå ikke aktivert denne kontoen, noe du må gjøre før du kan logge deg inn og bruke den. 
+
+Gå til nettadressen under for å aktivere brukerkontoen:
+
+{U_ACTIVATE}
+
+Takk for din registrering, vi ser fram til din deltakelse.
+
+{EMAIL_SIG}

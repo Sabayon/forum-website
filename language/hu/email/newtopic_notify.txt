@@ -1,0 +1,13 @@
+Subject: Fórumfigyelés értesítés - "{FORUM_NAME}"
+
+Kedves {USERNAME}!
+
+Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon a "{FORUM_NAME}" fórum figyelését kérted. Ebbe a fórumba, legutóbbi látogatásod óta új témát nyitottak, melynek címe: "{TOPIC_TITLE}". A következő linkre kattintva eljuthatsz az új témába, mindazonáltal újabb értesítést nem fogsz kapni, míg meg nem látogatod a fórumot.
+
+{U_NEWEST_POST}
+
+Amennyiben a továbbiakban nem kívánod figyelni a fórumot, kattints a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon találsz, vagy egyszerűen kattints a következő linkre:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}
