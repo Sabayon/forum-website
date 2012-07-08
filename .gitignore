@@ -1,6 +1,10 @@
 images/avatars/upload/*
 !images/avatars/upload/index.htm
 !images/avatars/upload/.htaccess
+
 files/*
 !files/index.htm
 !files/.htaccess
+
+cache/*
+!cache/.htaccess
