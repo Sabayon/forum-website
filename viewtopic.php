@@ -1628,48 +1628,6 @@ for ($i = 0, $end = sizeof($post_list); $i < $end; ++$i)
      $adcounter = $adcounter + 1;
      $division = 4;
 
-     if ((fmod($i,$division) == 0.0 or $i == 0) && ($adshowed < 3) && (0 == 1)) {
-
-	$adshowed = $adshowed +1;
-	
-	if (fmod($adcounter,2) == 0.0)
-		$color = 'E1EBF2';
-	else
-		$color = 'ECF3F7';
-	if ($i == 0)
-		$color = 'ECF3F7';
-	$postrow = array(
-                        'POST_AUTHOR_FULL'=> "Spotlight",
-                        'POST_AUTHOR'=> "Spotlight",
-                        'U_POST_AUTHOR'=> "Advertisements",
-                        'POST_DATE'=> $user->format_date(time()),
-                        'POST_SUBJECT'=> "Spot Break",
-                        'MESSAGE'=> '<div id="sense" align="left">
-					<script type="text/javascript"><!--
-					google_ad_client = "pub-9750012095333118";
-					google_ad_width = 728;
-					google_ad_height = 90;
-					google_ad_format = "728x90_as";
-					google_ad_type = "text_image";
-					google_ad_channel ="";
-					google_color_border = "'.$color.'";
-					google_color_text = "51130A";
-					google_color_bg = "'.$color.'";
-					google_color_link = "892110";
-					google_color_url = "f1040a";
-					//--></script>
-					<script type="text/javascript"
-					src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
-					</script>
-					<noscript><h2><strong>ATTENTION</strong>: please enable JavaScript for a complete experience</h2></noscript>
-		</div>',
-                        'S_POST_UNAPPROVED'=> false,
-	);
-       $template->assign_block_vars('postrow', $postrow);
-       $adcounter = $adcounter + 1;
-     };
-
-
 }
 unset($rowset, $user_cache);
 
