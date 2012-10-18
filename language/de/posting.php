@@ -4,14 +4,12 @@
 * posting [Deutsch — Du]
 *
 * @package language
-* @version $Id: posting.php 410 2009-11-20 17:10:06Z philippk $
+* @version $Id: posting.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -182,7 +180,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Es können maximal %1$d Zitate ineinander verschachtelt werden.',
 
-	'SAVE'						=> 'Entwurf Speichern',
+	'SAVE'						=> 'Entwurf speichern',
 	'SAVE_DATE'					=> 'Gespeichert am',
 	'SAVE_DRAFT'				=> 'Entwurf speichern',
 	'SAVE_DRAFT_CONFIRM'		=> 'Bitte beachte, dass gespeicherte Entwürfe nur den Betreff und den Nachrichtentext enthalten. Alle anderen Elemente werden entfernt. Möchtest du den Entwurf jetzt speichern?',

@@ -4,14 +4,12 @@
 * acp_forums [Deutsch — Du]
 *
 * @package language
-* @version $Id: forums.php 410 2009-11-20 17:10:06Z philippk $
+* @version $Id: forums.php 434 2010-02-24 13:22:56Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -71,7 +69,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_POST_REVIEW'			=> 'Prüfung auf neue Beiträge aktivieren',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Wenn diese Einstellung auf „Ja“ gesetzt wird, können die Benutzer ihren Beitrag überprüfen und ggf. anpassen, falls während des Schreibens ein neuer Beitrag zum Thema erstellt wurde. Dies sollte für Chat-Foren deaktiviert sein.',
 	'ENABLE_QUICK_REPLY'			=> 'Schnellantwort aktivieren',
-	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Wenn diese Einstellung auf „Ja“ gesetzt wird, können die Benutzer eine Schnellantwort erstellten. Wenn die Schnellantwort in den Board-Funktionalitäten deaktiviert wurde oder in dem Forum keine Antworten erstellt werden dürfen, wird unabhängig dieser Einstellung keine Schnellantwort angeboten.',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Aktiviert die Schnellantwort in diesem Forum. Diese Einstellung wird nicht berücksichtigt, wenn die Schnellantwort im gesamten Board deaktiviert wurde. Die Schnellantwort wird nur Benutzern angezeigt, die in dem Forum Antworten erstellen dürfen.',
 	'ENABLE_RECENT'					=> 'In aktiven Themen anzeigen',
 	'ENABLE_RECENT_EXPLAIN'			=> 'Wenn diese Einstellung auf „Ja“ gesetzt wird, werden Themen aus diesem Forum in der Liste der aktiven Themen angezeigt.',
 	'ENABLE_TOPIC_ICONS'			=> 'Themen-Symbole aktivieren',
@@ -104,7 +102,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_EXPLAIN'			=> 'Definiert ein Passwort für dieses Forum. Es wird empfohlen, vorzugsweise das Berechtigungs-System zu nutzen.',
 	'FORUM_PASSWORD_UNSET'				=> 'Forum-Passwort entfernen',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> 'Aktiviere diese Option, wenn du das Forum-Passwort entfernen willst.',
-	'FORUM_PASSWORD_OLD'				=> 'Das Forum-Passwort nutzt eine veraltete Verschlüsselungsmethode und sollte geändert werden.',
+	'FORUM_PASSWORD_OLD'				=> 'Das Forum-Passwort nutzt eine veraltete Hash-Methode und sollte geändert werden.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'Die angegebenen Passwörter stimmten nicht überein.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Einstellungen zum automatischen Löschen',
 	'FORUM_RESYNCED'					=> 'Forum „%s“ wurde erfolgreich resynchronisiert',

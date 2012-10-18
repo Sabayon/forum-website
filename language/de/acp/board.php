@@ -4,14 +4,12 @@
 * acp_board [Deutsch — Du]
 *
 * @package language
-* @version $Id: board.php 411 2009-11-21 21:59:58Z philippk $
+* @version $Id: board.php 434 2010-02-24 13:22:56Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -78,7 +76,8 @@ $lang = array_merge($lang, array(
 	'ALLOW_PM_REPORT'			=> 'Benutzern die Meldung Privater Nachrichten erlauben',
 	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Wenn diese Option aktiviert ist, können Benutzer eine Private Nachricht, die sie empfangen oder gesendet haben, an die Moderatoren des Boards melden Diese Privaten Nachrichten können dann im Moderations-Bereich eingesehen werden.',
 	'ALLOW_QUICK_REPLY'			=> 'Schnellantwort erlauben',
-	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Diese Einstellung legt fest, ob die Schnellantwort aktiviert ist oder nicht. Damit die Schnellantwort in einem Forum verfügbar ist, muss sie auch in den Foren-Einstellungen aktiviert werden.',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Diese Einstellung ermöglicht es, die Schnellantwort im gesamten Board zu deaktivieren. Wenn die Einstellung aktiviert ist, regeln die spezifischen Einstellungen der Foren, ob die Schnellantwort verfügbar ist.',
+	'ALLOW_QUICK_REPLY_BUTTON'	=> 'Absenden und Schnellantwort in allen Foren aktivieren',
 	'ALLOW_SIG'					=> 'Signaturen erlauben',
 	'ALLOW_SIG_BBCODE'			=> 'BBCode in Signaturen erlauben',
 	'ALLOW_SIG_FLASH'			=> 'BBCode-Tag <code>flash</code> in Signaturen erlauben',
@@ -154,7 +153,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Wenn deaktiviert, ist der <code>[FLASH]</code> BBCode-Tag in Beiträgen deaktiviert. Andernfalls wird durch das Berechtigungssystem festgelegt, welche Benutzer den <code>[FLASH]</code> BBCode-Tag benutzen können.',
 
 	'BUMP_INTERVAL'					=> 'Neu-Markierung möglich nach',
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Die Zahl der Minuten, Stunden oder Tage, die seit dem letzten Beitrag zu einem Thema vergangen sein müssen, damit das Thema als „Neu“ markiert werden kann.',
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Die Zahl der Minuten, Stunden oder Tage, die seit dem letzten Beitrag zu einem Thema vergangen sein müssen, damit das Thema als „Neu“ markiert werden kann. Um die Funktion zu deaktivieren, stelle als Wert 0 ein.',
 	'CHAR_LIMIT'					=> 'Maximale Anzahl der Zeichen pro Beitrag/Nachricht',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Die maximale Zahl von Zeichen, die in einem Beitrag/einer Privaten Nachricht zulässig sind; 0 bedeutet unbegrenzt.',
 	'DELETE_TIME'					=> 'Begrenze Löschzeit',
@@ -254,27 +253,35 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Allgemeine Feed-Einstellungen',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Dieses Modul stellt verschiedene ATOM-Feeds zur Verfügung. Es wandelt BBCode um, so dass er in externen Feeds dargestellt werden kann.',
 
+	'ACP_FEED_GENERAL'					=> 'Allgemeine Feed-Einstellungen',
+	'ACP_FEED_POST_BASED'				=> 'Beitragsbezogene Feed-Einstellungen',
+	'ACP_FEED_TOPIC_BASED'				=> 'Themenbezogene Feed-Einstellungen',
+	'ACP_FEED_SETTINGS_OTHER'			=> 'Weitere Feed-Einstellungen',
+
 	'ACP_FEED_ENABLE'					=> 'Feeds aktivieren',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Aktiviert oder deaktiviert ATOM-Feeds für das ganze Board.<br />Eine Deaktivierung schaltet alle Feeds unabhängig der folgenden Einstellungen ab.',
 	'ACP_FEED_LIMIT'					=> 'Anzahl von Elementen',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Die maximale Anzahl von Elementen eines Feeds, die angezeigt werden.',
 
-	'ACP_FEED_OVERALL_FORUMS'			=> 'Forenübergreifenden Feed aktivieren',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Dieser Feed zeigt die letzten Beiträge in allen Themen des Boards an.',
-	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Anzahl der Elemente pro Seite, die im forenübergreifenden Feed angezeigt werden',
-
-	'ACP_FEED_OVERALL_TOPIC'			=> 'Themenübergreifenden Feed aktivieren',
-	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Aktiviert den „Alle Themen“-Feed',
-	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Anzahl der Elemente pro Seite, die im themenübergreifenden Feed angezeigt werden',
+	'ACP_FEED_OVERALL'					=> 'Board-Feed',
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Neue Beiträge des gesamten Boards.',
 	'ACP_FEED_FORUM'					=> 'Forenspezifische Feeds aktivieren',
-	'ACP_FEED_FORUM_EXPLAIN'			=> 'Neue Beiträge eines Forums.',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Neue Beiträge eines einzelnen Forums und Unterforen.',
 	'ACP_FEED_TOPIC'					=> 'Themenspezifische Feeds aktivieren',
 	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Neue Beiträge eines Themas.',
+
+	'ACP_FEED_TOPICS_NEW'				=> 'Neue Themen-Feed',
+	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'Aktiviert den „Neue Themen“-Feed, der die zuletzt erstellten Themen und deren ersten Beitrag anzeigt.',
+	'ACP_FEED_TOPICS_ACTIVE'			=> 'Aktive Themen-Feed',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Aktiviert den „Aktive Themen“-Feed, der die zuletzt aktiven Themen und deren letzten Beitrag anzeigt.',
 	'ACP_FEED_NEWS'						=> 'News-Feed',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Gibt die ersten Beiträge aus diesen Foren aus. Wähle keine Foren aus, um den News-Feed zu deaktivieren.<br />Wähle mehrere Foren aus/ab, indem du beim Klicken die <samp>Strg</samp>-Taste drückst.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Gibt den ersten Beitrag aus diesen Foren aus. Wähle keine Foren aus, um den News-Feed zu deaktivieren.<br />Wähle mehrere Foren aus/ab, indem du beim Klicken die <samp>Strg</samp>-Taste drückst.',
 
-	'ACP_FEED_GENERAL'					=> 'Allgemeine Feed-Einstellungen',
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Foren-Feed aktivieren',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Dieser Feed zeigt eine Liste aller Foren des Boards an.',
 
+	'ACP_FEED_HTTP_AUTH'				=> 'HTTP-Authentifizierung erlauben',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Aktiviert die HTTP-Authentifizierung. Dadurch können Benutzer Inhalte empfangen, die für Gäste nicht sichtbar sind. Um die Funktion zu nutzen, muss der Parameter <samp>auth=http</samp> der URL des Feeds hinzugefügt werden. Beachte bitte, dass bei manchen PHP-Konfigurationen eine Anpassung der .htaccess-Datei notwendig ist. Entsprechende Hinweise sind in der Datei enthalten.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Element-Statistiken',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Zeigt individuelle Statistiken unterhalb der Feed-Elemente an<br />(Ersteller, Datum und Uhrzeit, Antworten, Zugriffe)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Foren ausschließen',
@@ -388,7 +395,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'					=> 'Das angegebene E-Mail-Attribut existiert nicht.',
 	'LDAP_NO_IDENTITY'				=> 'Kann keine Anmeldekennung für %s finden.',
 	'LDAP_PASSWORD'					=> 'LDAP-Passwort',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Lasse das Feld für eine anonyme Verbindung frei; ansonsten gebe das Passwort für obigen Benutzer an. Erforderlich bei Active Directory-Servern. <strong>WARNUNG:</strong> Dieses Passwort wird im Klartext in der Datenbank gespeichert und ist daher für jeden einsehbar, der Zugriff auf die Datenbank oder diese Konfigurationsseite hat.',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Lasse das Feld für eine anonyme Verbindung frei; ansonsten gebe das Passwort für obigen Benutzer an. Erforderlich bei Active Directory-Servern. <em><strong>WARNUNG:</strong> Dieses Passwort wird im Klartext in der Datenbank gespeichert und ist daher für jeden einsehbar, der Zugriff auf die Datenbank oder diese Konfigurationsseite hat.</em>',
 	'LDAP_PORT'						=> 'Port des LDAP-Servers',
 	'LDAP_PORT_EXPLAIN'				=> 'Du kannst optional einen Port angeben, der statt dem Standardport 389 für die Verbindung zum LDAP-Server verwendet werden soll.',
 	'LDAP_SERVER'					=> 'LDAP-Server-Name',
@@ -500,7 +507,7 @@ $lang = array_merge($lang, array(
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'SMTP-Passwort',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Gib nur ein Passwort ein, wenn dein SMTP-Server dies erfordert.',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Gib nur ein Passwort ein, wenn dein SMTP-Server dies erfordert. <em><strong>WARNUNG:</strong> Dieses Passwort wird im Klartext in der Datenbank gespeichert und ist daher für jeden einsehbar, der Zugriff auf die Datenbank oder diese Konfigurationsseite hat.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP-Server-Port',
@@ -523,6 +530,7 @@ $lang = array_merge($lang, array(
 	'JAB_PACKAGE_SIZE'			=> 'Jabber-Paketgröße',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Dies ist die Anzahl der Nachrichten, die in einem Paket gesendet werden. Um die Nachrichten sofort zu senden, stelle als Wert 0 ein.',
 	'JAB_PASSWORD'				=> 'Jabber-Passwort',
+	'JAB_PASSWORD_EXPLAIN'		=> '<em><strong>WARNUNG:</strong> Dieses Passwort wird im Klartext in der Datenbank gespeichert und ist daher für jeden einsehbar, der Zugriff auf die Datenbank oder diese Konfigurationsseite hat.</em>',
 	'JAB_PORT'					=> 'Jabber-Port',
 	'JAB_PORT_EXPLAIN'			=> 'Lass dieses Feld frei, es sei denn, du weißt, dass es nicht Port 5222 ist.',
 	'JAB_SERVER'				=> 'Jabber-Server',

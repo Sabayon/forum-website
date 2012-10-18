@@ -4,14 +4,12 @@
 * acp_attachments [Deutsch — Du]
 *
 * @package language
-* @version $Id: attachments.php 196 2007-05-18 17:37:40Z philipp $
+* @version $Id: attachments.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -85,7 +83,7 @@ $lang = array_merge($lang, array(
 	'DEFINE_ALLOWED_IPS'			=> 'Erlaubte IPs/Hostnamen einstellen',
 	'DEFINE_DISALLOWED_IPS'			=> 'Verbotene IPs/Hostnamen einstellen',
 	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Gib jede IP-Adresse/jeden Hostnamen in einer separaten Zeile ein. Wenn du einen IP-Bereich angeben möchtest, musst du Anfang und Ende dieses Bereiches mit einem Bindestrich (-) trennen, verwende „*“ als Platzhalter.',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Du kannst mehrere IP-Adressen zeitgleich entfernen (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. IP-Adressen auf der Ausnahmeliste sind hervorgehoben.',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Du kannst mehrere IP-Adressen gleichzeitig entfernen (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. IP-Adressen auf der Ausnahmeliste sind hervorgehoben.',
 	'DISPLAY_INLINED'				=> 'Bilder im Beitrag anzeigen',
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Wenn diese Option auf „Nein“ gesetzt wird, werden Bildanhänge als Link dargestellt.',
 	'DISPLAY_ORDER'					=> 'Sortierung der Dateianhänge',

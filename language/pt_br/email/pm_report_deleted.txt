@@ -1,0 +1,8 @@
+Subject: Reporte removido - "{PM_SUBJECT}"
+
+Olá {USERNAME},
+
+Você está recebendo esta notificação porque o reporte que você preencheu a respeito da mensagem particular "{PM_SUBJECT}" em "{SITENAME}" foi removido por um moderador ou administrador da comunidade.
+
+
+{EMAIL_SIG}

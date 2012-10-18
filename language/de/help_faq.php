@@ -4,14 +4,12 @@
 * help_faq [Deutsch — Du]
 *
 * @package language
-* @version $Id: help_faq.php 394 2009-09-13 15:30:35Z philippk $
+* @version $Id: help_faq.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -89,7 +87,7 @@ $help = array(
 	),
 	array(
 		0 => 'Die Forenuhr geht falsch!',
-		1 => 'Möglicherweise ist entspricht die angezeigte Zeit nicht deiner eigenen Zeitzone. In diesem Fall solltest du im „Persönlichen Bereich“ die für dich passende Zeitzone (Mitteleuropäische Zeit, ...) festlegen. Die Zeitzone kann dabei nur von registrierten Benutzern geändert werden. Wenn du noch nicht registriert bist, ist dies ein guter Grund, dies jetzt zu tun.'
+		1 => 'Möglicherweise entspricht die angezeigte Zeit nicht deiner eigenen Zeitzone. In diesem Fall solltest du im „Persönlichen Bereich“ die für dich passende Zeitzone (Mitteleuropäische Zeit, ...) festlegen. Die Zeitzone kann dabei nur von registrierten Benutzern geändert werden. Wenn du noch nicht registriert bist, ist dies ein guter Grund, dies jetzt zu tun.'
 	),
 	array(
 		0 => 'Ich habe die Zeitzone eingestellt, aber die Forenuhr geht immer noch falsch!',
@@ -100,8 +98,8 @@ $help = array(
 		1 => 'Meist hat die Board-Administration entweder deine Sprache nicht installiert oder niemand hat das Forum bislang in deine Sprache übersetzt. Frage ggf. einen Administrator, ob er das Sprachpaket, das du benötigst, installieren kann. Falls es noch nicht existiert, würden wir uns freuen, wenn du es übersetzen würdest. Weitere Informationen dazu können auf der Website der phpBB Group gefunden werden (siehe Link am Ende jeder Seite).'
 	),
 	array(
-		0 => 'Wie kann ich ein Bild unter meinem Benutzernamen anzeigen?',
-		1 => 'In der Beitragsansicht können zwei Bilder unter deinem Benutzernamen stehen. Abhängig von dem gewählten Style ist das erste Bild meist mit deinem Rang verknüpft: Oft sind dies Sterne, Kästchen oder Punkte, die deine Beitragszahl oder deinen Status im Forum angeben. Das zweite, meist größere Bild darunter, ist auch als „Avatar“ genannt. Es handelt sich hierbei in der Regel um ein persönliches Bild, welches von Benutzer zu Benutzer unterschiedlich ist. Die Board-Administration kann bestimmen, ob und wie die Benutzer Avatare benutzen können. Wenn du keinen Avatar benutzen darfst, solltest du die Board-Administration nach den Gründen dafür fragen.'
+		0 => 'Wie kann ich ein Bild bei meinem Benutzernamen anzeigen?',
+		1 => 'In der Beitragsansicht können zwei Bilder bei deinem Benutzernamen stehen. Eines dieser Bilder ist meist mit deinem Rang verknüpft: Oft sind dies Sterne, Kästchen oder Punkte, die deine Beitragszahl oder deinen Status im Forum angeben. Das andere, meist größere Bild, ist auch als „Avatar“ bezeichnet. Es handelt sich hierbei in der Regel um ein persönliches Bild, welches von Benutzer zu Benutzer unterschiedlich ist. Die Board-Administration kann bestimmen, ob und wie die Benutzer Avatare benutzen können. Wenn du keinen Avatar benutzen darfst, solltest du die Board-Administration nach den Gründen dafür fragen.'
 	),
 	array(
 		0 => 'Was ist mein Rang und wie kann ich ihn ändern?',

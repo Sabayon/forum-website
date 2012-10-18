@@ -1,0 +1,8 @@
+Subject: Reportagem Fechada - "{PM_SUBJECT}"
+
+Olá {USERNAME},
+
+Você está recebendo este email porque sua reportada sobre a mensagem particular "{PM_SUBJECT}" em "{SITENAME}" foi encerrada por um moderador ou administrador. O reporte agora está encerrado. Se você tem questões futuras, favor entrar em contato com {CLOSER_NAME} por mensagem privada.
+
+
+{EMAIL_SIG}

@@ -1,0 +1,8 @@
+Subject: Hlásenie uzavreté - "{PM_SUBJECT}"
+
+Dobrý deň {USERNAME},
+
+Správa "{PM_SUBJECT}", ktorú ste nahlásili na "{SITENAME}" bola spracovaná administrátorom alebo moderátorom. Hlásenie bolo uzavreté. Ak máte ďalšie otázky, kontaktujte {CLOSER_NAME} súkromnou správou na fóre.
+
+
+{EMAIL_SIG}

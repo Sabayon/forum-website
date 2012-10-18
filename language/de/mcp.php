@@ -4,14 +4,12 @@
 * mcp [Deutsch — Du]
 *
 * @package language
-* @version $Id: mcp.php 396 2009-09-14 15:18:24Z philippk $
+* @version $Id: mcp.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -258,6 +256,8 @@ $lang = array_merge($lang, array(
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Die ausgewählte Meldung einer Privaten Nachricht wurde erfolgreich gelöscht.',
 	'PM_REPORTED_SUCCESS'		=> 'Diese Private Nachricht wurde erfolgreich gemeldet.',
 	'PM_REPORT_TOTAL'			=> 'Insgesamt wartet <strong>1</strong> Meldung zu einer Privaten Nachricht auf Überprüfung.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Die ausgewählten Meldungen zu Privaten Nachrichten wurden erfolgreich geschlossen.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'Die ausgewählten Meldungen zu Privaten Nachrichten wurden erfolgreich gelöscht.',
 	'PM_REPORTS_TOTAL'			=> 'Insgesamt warten <strong>%d</strong> Meldungen zu Privaten Nachrichten auf Überprüfung.',
 	'PM_REPORTS_ZERO_TOTAL'		=> 'Es warten keine Meldungen zu Privaten Nachrichten auf Überprüfung.',
 	'PM_REPORT_DETAILS'			=> 'Details der Meldung zu einer Privaten Nachricht',
@@ -332,6 +332,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Bist du sicher, dass du dieses Thema ab dem ausgewählten Beitrag teilen möchtest?',
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Mit dem folgenden Formular kannst du ein Thema in zwei aufteilen, indem du entweder die Beiträge einzeln auswählst oder ab einem bestimmten Beitrag teilst.',
 
+	'THIS_PM_IP'				=> 'IP dieser Privaten Nachricht',
 	'THIS_POST_IP'				=> 'IP dieses Beitrags',
 	'TOPICS_APPROVED_SUCCESS'	=> 'Die ausgewählten Themen wurden freigegeben.',
 	'TOPICS_DELETED_SUCCESS'	=> 'Die ausgewählten Themen wurden erfolgreich aus der Datenbank gelöscht.',

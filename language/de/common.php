@@ -4,14 +4,12 @@
 * common [Deutsch — Du]
 *
 * @package language
-* @version $Id: common.php 406 2009-10-18 21:10:40Z philippk $
+* @version $Id: common.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -313,7 +311,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Du wurdest nicht durch Apache authentifiziert.',
 	'LOGIN_ERROR_PASSWORD'			=> 'Du hast ein fehlerhaftes Passwort angegeben. Bitte prüfe dein Passwort und versuche es erneut. Wenn du weiterhin auf Probleme stößt, wende dich bitte an die %sBoard-Administration%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Als dieses Board aktualisiert wurde, konnte dein Passwort nicht konvertiert werden. Bitte %sfordere ein neues Passwort an%s. Wenn du weiterhin Probleme beim Zugriff auf dieses Board hast, wende dich bitte an die %sBoard-Administration%s.',
-	'LOGIN_ERROR_USERNAME'			=> 'Du hast einen fehlerhaften Benutzername angegeben. Bitte prüfe deinen Benutzernamen und versuche es erneut. Wenn du weiterhin auf Probleme stößt, wende dich bitte an die %sBoard-Administration%s.',
+	'LOGIN_ERROR_USERNAME'			=> 'Du hast einen fehlerhaften Benutzernamen angegeben. Bitte prüfe deinen Benutzernamen und versuche es erneut. Wenn du weiterhin auf Probleme stößt, wende dich bitte an die %sBoard-Administration%s.',
 	'LOGIN_FORUM'					=> 'Um in diesem Forum einen Beitrag anzusehen oder zu erstellen, musst du das Foren-Passwort eingeben.',
 	'LOGIN_INFO'					=> 'Du musst in diesem Forum registriert sein, um dich anmelden zu können. Die Registrierung ist in wenigen Augenblicken erledigt und ermöglicht dir, auf weitere Funktionen zuzugreifen. Die Board-Administration kann registrierten Benutzern auch zusätzliche Berechtigungen zuweisen. Beachte bitte unsere Nutzungsbedingungen und die verwandten Regelungen, bevor du dich registrierst. Bitte beachte auch die jeweiligen Forenregeln, wenn du dich in diesem Board bewegst.',
 	'LOGIN_VIEWFORUM'				=> 'Um Beiträge in diesem Forum anzusehen, musst du auf diesem Board registriert und angemeldet sein.',
@@ -332,7 +330,7 @@ $lang = array_merge($lang, array(
 	'MEMBERLIST'			=> 'Mitglieder',
 	'MEMBERLIST_EXPLAIN'	=> 'Zeigt eine vollständige Liste aller Mitglieder an',
 	'MERGE'					=> 'Zusammenführen',
-	'MERGE_POSTS'			=> 'Beiträge zusammenführen',
+	'MERGE_POSTS'			=> 'Beiträge verschieben',
 	'MERGE_TOPIC'			=> 'Thema zusammenführen',
 	'MESSAGE'				=> 'Nachricht',
 	'MESSAGES'				=> 'Nachrichten',
@@ -422,6 +420,7 @@ $lang = array_merge($lang, array(
 
 	'PAGE_OF'					=> 'Seite <strong>%1$d</strong> von <strong>%2$d</strong>',
 	'PASSWORD'					=> 'Passwort',
+	'PIXEL'						=> 'px',
 	'PLAY_QUICKTIME_FILE'		=> 'Gebe QuickTime-Datei wieder',
 	'PM'						=> 'PN',
 	'POSTING_MESSAGE'			=> 'Erstellt eine Nachricht in %s',
@@ -463,7 +462,7 @@ $lang = array_merge($lang, array(
 	'READING_TOPIC'				=> 'Liest Thema in %s',
 	'READ_PROFILE'				=> 'Profil',
 	'REASON'					=> 'Grund',
-	'RECORD_ONLINE_USERS'		=> 'Der Besucherrekord liegt bei <strong>%1$s</strong> Besuchern, die am %2$s zeitgleich online waren.',
+	'RECORD_ONLINE_USERS'		=> 'Der Besucherrekord liegt bei <strong>%1$s</strong> Besuchern, die am %2$s gleichzeitig online waren.',
 	'REDIRECT'					=> 'Weiterleiten',
 	'REDIRECTS'					=> 'Aufrufe insgesamt',
 	'REGISTER'					=> 'Registrieren',
@@ -496,6 +495,8 @@ $lang = array_merge($lang, array(
 	'RETURN_TO'					=> 'Zurück zu',
 	'FEED'						=> 'Feed',
 	'FEED_NEWS'					=> 'Neuigkeiten',
+	'FEED_TOPICS_ACTIVE'		=> 'Aktive Themen',
+	'FEED_TOPICS_NEW'			=> 'Neue Themen',
 	'RULES_ATTACH_CAN'			=> 'Du <strong>darfst</strong> Dateianhänge in diesem Forum erstellen.',
 	'RULES_ATTACH_CANNOT'		=> 'Du darfst <strong>keine</strong> Dateianhänge in diesem Forum erstellen.',
 	'RULES_DELETE_CAN'			=> 'Du <strong>darfst</strong> deine Beiträge in diesem Forum löschen.',

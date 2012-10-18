@@ -4,14 +4,12 @@
 * acp_ban [Deutsch — Du]
 *
 * @package language
-* @version $Id: ban.php 397 2009-09-14 17:01:41Z philippk $
+* @version $Id: ban.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -61,7 +59,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_BAN_EXPLAIN'			=> 'Um mehr als eine E-Mail-Adresse anzugeben, gib jede Adresse in einer neuen Zeile ein. Um Übereinstimmungen von Teilen einer Adresse anzugeben, verwende „*“ als Platzhalter; z.&nbsp;B. <samp>*@phpbb.com</samp>, <samp>*@*.domain.tld</samp>, usw.',
 	'EMAIL_NO_BANNED'			=> 'Keine gesperrten E-Mail-Adressen.',
 	'EMAIL_UNBAN'				=> 'E-Mail-Adressen entsperren oder Ausnahmen entfernen',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'Du kannst mehrere E-Mail-Adressen zeitgleich entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. E-Mail-Adressen auf der Ausnahmeliste sind hervorgehoben.',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Du kannst mehrere E-Mail-Adressen gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. E-Mail-Adressen auf der Ausnahmeliste sind hervorgehoben.',
 
 	'IP_BAN'					=> 'Eine oder mehrere IP-Adressen sperren',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Aktiviere diese Option, um die Adresse von allen aktuellen Sperren auszunehmen.',
@@ -69,7 +67,7 @@ $lang = array_merge($lang, array(
 	'IP_HOSTNAME'				=> 'IP-Adressen oder Hostnamen',
 	'IP_NO_BANNED'				=> 'Keine gesperrten IP-Adressen.',
 	'IP_UNBAN'					=> 'IP-Adressen entsperren oder Ausnahmen entfernen',
-	'IP_UNBAN_EXPLAIN'			=> 'Du kannst mehrere IP-Adressen zeitgleich entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. IP-Adressen auf der Ausnahmeliste sind hervorgehoben.',
+	'IP_UNBAN_EXPLAIN'			=> 'Du kannst mehrere IP-Adressen gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. IP-Adressen auf der Ausnahmeliste sind hervorgehoben.',
 
 	'LENGTH_BAN_INVALID'		=> 'Das Datum muss im Format <kbd>JJJJ-MM-TT</kbd> angegeben werden.',
 
@@ -81,7 +79,7 @@ $lang = array_merge($lang, array(
 	'USER_BAN_EXPLAIN'			=> 'Um mehrere Benutzer auf einmal zu sperren, gib jeden Namen in einer neuen Zeile ein. Benutze <span style="text-decoration: underline;">Nach einem Mitglied suchen</span>, um nach einem oder mehreren Benutzer(n) zu suchen und diese(n) der Liste hinzuzufügen.',
 	'USER_NO_BANNED'			=> 'Keine gesperrten Benutzernamen.',
 	'USER_UNBAN'				=> 'Benutzernamen entsperren oder Ausnahmen entfernen',
-	'USER_UNBAN_EXPLAIN'		=> 'Du kannst mehrere Benutzer zeitgleich entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. Benutzernamen auf der Ausnahmeliste sind hervorgehoben.'
+	'USER_UNBAN_EXPLAIN'		=> 'Du kannst mehrere Benutzer gleichzeitig entsperren (oder aus der Ausnahmeliste entfernen), indem du mit der entsprechenden Tasten- und Mauskombination mehrere Einträge markierst. Benutzernamen auf der Ausnahmeliste sind hervorgehoben.'
 ));
 
 ?>

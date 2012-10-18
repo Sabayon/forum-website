@@ -4,14 +4,12 @@
 * acp_common [Deutsch — Du]
 *
 * @package language
-* @version $Id: common.php 400 2009-09-19 19:58:20Z philippk $
+* @version $Id: common.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2005 phpBB Group; 2006 phpBB.de
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -214,7 +212,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Admin-Übersicht',
 	'ADMIN_PANEL'			=> 'Administrations-Bereich',
 
-	'ADM_LOGOUT'			=> 'Verlassen',
+	'ADM_LOGOUT'			=> 'Administration beenden',
 	'ADM_LOGGED_OUT'		=> 'Du wurdest erfolgreich vom Administrations-Bereich abgemeldet.',
 
 	'BACK'					=> 'Zurück',
@@ -272,7 +270,6 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Links erkennen',
 	'PERMISSIONS_TRANSFERRED'			=> 'Berechtigungen übernommen',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Du hast derzeit die Berechtigungen von %1$s übernommen. Du kannst das Board mit den Rechten dieses Benutzers testen; du kannst jedoch nicht den Administrations-Bereich benutzen, da Administrations-Rechte nicht übernommen werden. Du kannst jederzeit <a href="%2$s"><strong>zu deinen Berechtigungen zurückkehren</strong></a>.',
-	'PIXEL'								=> 'px',
 	'PROCEED_TO_ACP'					=> '%sZum Administrations-Bereich%s',
 
 	'REMIND'							=> 'Erinnern',
@@ -345,6 +342,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Anzahl Benutzer',
 	'NUMBER_ORPHAN'		=> 'Verwaiste Dateianhänge',
 
+	'PHP_VERSION_OLD'	=> 'Die PHP-Version auf diesem Server wird von künftigen phpBB-Versionen nicht mehr unterstützt. %sWeitere Informationen%s',
+
 	'POSTS_PER_DAY'		=> 'Beiträge pro Tag',
 
 	'PURGE_CACHE'			=> 'Den Cache leeren',
@@ -353,7 +352,7 @@ $lang = array_merge($lang, array(
 
 	'PURGE_SESSIONS'			=> 'Sitzungsdaten löschen',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Sind Sie sicher, dass Sie alle Sitzungsdaten löschen möchten? Dies wird alle Benutzer abmelden.',
-	'PURGE_SESSIONS_EXPLAIN'	=> 'Alle Sitzungslaten löschen. Dies wird alle Benutzer abmelden, indem die Sitzungstabelle geleert wird.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Alle Sitzungsdaten löschen. Dies wird alle Benutzer abmelden, indem die Sitzungstabelle geleert wird.',
 
 	'RESET_DATE'					=> 'Einrichtungsdatum des Boards zurücksetzen',
 	'RESET_DATE_CONFIRM'			=> 'Bist du sicher, dass du das Einrichtungsdatum des Boards zurücksetzen willst?',

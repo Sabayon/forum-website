@@ -4,14 +4,12 @@
 * captcha_qa [Deutsch — Du]
 *
 * @package language
-* @version $Id: captcha_qa.php 394 2009-09-13 15:30:35Z philippk $
+* @version $Id: captcha_qa.php 433 2010-02-24 13:15:18Z philippk $
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 * Deutsche Übersetzung durch die Übersetzer-Gruppe von phpBB.de:
-* (http://www.phpbb.de/go/3/uebersetzer)
-* Frank Doerr, Ingo Köhler, Fabian Koglin, Philipp Kordowich, Ingo Migliarina, Martin Rauscher
-* Ehemalige Mitglieder: Dirk Gaffke
+* siehe docs/AUTHORS und http://www.phpbb.de/go/ubersetzerteam
 *
 */
 
@@ -63,6 +61,8 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'Die Frage, die bei der Registrierung gestellt wird.',
 
 	'QA_ERROR_MSG'				=> 'Bitte fülle alle Felder aus und gebe mindestens eine Antwort an.',
+	'QA_LAST_QUESTION'			=> 'Du kannst nicht alle Fragen löschen, solange das Plugin aktiv ist.',
+
 ));
 
 ?>
