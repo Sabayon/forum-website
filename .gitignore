@@ -8,3 +8,4 @@ files/*
 
 cache/*
 !cache/.htaccess
+!cache/.chown-ignore
