@@ -9,3 +9,8 @@ After it, you will have to do some manual steps:
 
 1. Open http://127.0.0.1:8080/phpBB3/install for phpBB3.
    Make sure you have everything needed in order to install it.
+
+## TODO
+
+Copy over files of our installation to phpBB setup.
+Try [privacypolicy extension](https://github.com/david63/david63-privacypolicy)
