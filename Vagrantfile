@@ -34,13 +34,16 @@ Vagrant.configure("2") do |config|
     chmod 777 /var/www/html/phpBB3/files/
     chmod 777 /var/www/html/phpBB3/store/
     chmod 777 /var/www/html/phpBB3/images/avatars/upload/
+    chown -R php:root /var/www/html/phpBB3/
 
-    echo "local phpbb   phpbb   127.0.0.1/32   trust" >> /etc/postgresql/9.5/main/pg_hba.conf
-    sudo -u postgres dropdb phpbb
-    sudo -u postgres createuser -d -s phpbb
-    sudo -u postgres createdb -O phpbb phpbb
+    id -u php &> /dev/null || adduser --disabled-password --gecos "" php
+    sed -i.bak s/peer/trust/g /etc/postgresql/9.5/main/pg_hba.conf
+    sudo -u postgres dropdb --if-exists forum
+    sudo -u postgres dropuser php
+    sudo -u postgres createuser -d -s php
+    sudo -u postgres createdb -O php forum
     a2enconf phppgadmin
     service apache2 reload
-    service postgresql reload
+    service postgresql restart
   SHELL
 end

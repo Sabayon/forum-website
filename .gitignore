@@ -19,6 +19,8 @@ tags
 
 # End of https://www.gitignore.io/api/vim,vagrant
 
+*.log
+
 images/avatars/upload/*
 !images/avatars/upload/index.htm
 !images/avatars/upload/.htaccess
