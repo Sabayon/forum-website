@@ -23,7 +23,13 @@ They are weak, because this is a throwaway development environment.
    1. password: `secret`
    1. email: `webmaster@forum.php`
 
+1. After installation, run the script `after-install.sh`.
+1. Login to the admin interface (click on `Administration Control Panel` at the bottom)
+   and navigate to the tab Styles.
+   From there you need to install the styles.
+
 ## TODO
 
-Copy over files of our installation to phpBB setup.
-Try [privacypolicy extension](https://github.com/david63/david63-privacypolicy)
+- Find a way to expose the scripts folder in the VM
+- Try [privacypolicy extension](https://github.com/david63/david63-privacypolicy)
+- Mods reached there end of life and need to be ported to extensions.
