@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get -qq update
-    apt-get -qq install -y apache2 php postgresql postgresql-client unzip libapache2-mod-php7.0 phppgadmin
+    apt-get -qq install -y apache2 php postgresql postgresql-client unzip libapache2-mod-php7.0 phppgadmin php-xml
 
     cd /tmp
     rm -rf phpBB*
