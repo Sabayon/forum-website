@@ -1,0 +1,21 @@
+This file lists differences between a Vanilla phpBB instance and ours.
+Run `diff -y --suppress-common-lines /var/www/html/phpBB3/ /tmp/html/ to check
+
+In Vanilla, but not in ours
+- images/index.htm
+- .htaccess
+
+In ours, but not in Vanilla
+- clear.php
+- data_global.php
+- favicon.ico
+- functions.php
+- get_langpacks.sh
+- mods/
+- images/smilies/*.gif contains quite a bunch of additional ones
+- language/* all non-en languages are listed there
+- language/en/ucp.bak
+- styles/* all aside prosilver and subsilver2
+
+Edited files
+- viewtopic.php
