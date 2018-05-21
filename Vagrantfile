@@ -16,6 +16,7 @@ Vagrant.configure("2") do |config|
   # The second argument is the path on the guest to mount the folder.
   # And the optional third argument is a set of non-required options.
   config.vm.synced_folder "./src/", "/tmp/html"
+  config.vm.synced_folder "./scripts/", "/tmp/scripts"
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get -qq update
