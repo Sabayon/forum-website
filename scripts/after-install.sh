@@ -19,4 +19,5 @@ cp -r $SABAYON_FORUM/images/smilies/*.gif ./images/smilies/
 cp -r $SABAYON_FORUM/language/* ./language/
 cp -r $SABAYON_FORUM/styles/* ./styles/
 
-chmod 640 "$PHP_ROOT_DIR/config.php"
+# Granting 777 is bad, but there were logs in apache2's error.log file regarding permission denied
+chmod 777 "$PHP_ROOT_DIR/config.php"
