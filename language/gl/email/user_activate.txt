@@ -1,9 +1,0 @@
-Subject: Reactivar a túa conta
-
-Ola {USERNAME},
-
-A túa conta en "{SITENAME}" foi desactivada, posiblemente debido a trocos feitos no teu perfil. Para reactivar a túa conta debes premer na ligazón de embaixo:
-
-{U_ACTIVATE}
-
-{EMAIL_SIG}

@@ -1,9 +1,0 @@
-Subject: Riaktivizo llogarinë
-
-Përshëndetje {USERNAME},
-
-Llogaria juaj tek "{SITENAME}" është ç'aktivizuar, mbase nga ndryshimet e bëra në profilin tuaj. Për të riaktivizuar llogarinë tuaj klikoni linkun e mëposhtëm:
-
-{U_ACTIVATE}
-
-{EMAIL_SIG}

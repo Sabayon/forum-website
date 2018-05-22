@@ -1,8 +1,0 @@
-Subject: Hlásenie odstránené - "{PM_SUBJECT}"
-
-Dobrý deň {USERNAME},
-
-Hlásenie o správe "{PM_SUBJECT}", ktoré ste odoslali na "{SITENAME}" bolo administrátorom alebo moderátorom odstránené.
-
-
-{EMAIL_SIG}

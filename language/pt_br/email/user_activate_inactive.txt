@@ -1,7 +1,0 @@
-Subject: Sua conta foi desativada
-
-Olá {USERNAME},
-
-Sua conta no site “{SITENAME}” foi desativada. Provavelmente por causa de alterações feitas em seu perfil. O administrador deve ativá-la antes de você conseguir entrar novamente. Você receberá uma nova notificação quando isso acontecer.
-
-{EMAIL_SIG}

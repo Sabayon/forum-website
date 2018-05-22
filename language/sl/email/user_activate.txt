@@ -1,9 +1,0 @@
-Subject: Vaš uporabniški račun je ponovno omogočen
-
-Pozdravljeni, {USERNAME},
-
-Vaš uporabniški račun na spletni strani "{SITENAME}" je bil deaktiviran zaradi sprememb, narejenih v vašem profilu. Za aktivacijo računa kliknite na spodnjo povezavo.
-
-{U_ACTIVATE}
-
-{EMAIL_SIG}

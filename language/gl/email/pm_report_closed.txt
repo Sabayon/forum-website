@@ -1,8 +1,0 @@
-Subject: Informe pechado - "{PM_SUBJECT}"
-
-Ola {USERNAME},
-
-Estás a recibir esta notificación debido a que o informe que enviaches con respecto á mensaxe privada "{PM_SUBJECT}" en "{SITENAME}" foi atendida por un moderador ou administrador. O informe está pechado agora. Se tiveres máis preguntas, por favor, contacta con {CLOSER_NAME} enviándolle unha mensaxe privada.
-
-
-{EMAIL_SIG}

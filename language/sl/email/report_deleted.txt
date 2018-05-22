@@ -1,7 +1,0 @@
-Subject: Prispevek izbrisan - "{POST_SUBJECT}"
-
-Pozdravljeni, {USERNAME},
-
-To sporočilo ste prejeli zaradi vsebine v prispevku "{POST_SUBJECT}" v temi "{TOPIC_TITLE}" na spletni strani "{SITENAME}". Prispevek je bil izbrisan s strani moderatorja oz. administratorja.
-
-{EMAIL_SIG}

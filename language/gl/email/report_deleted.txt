@@ -1,8 +1,0 @@
-Subject: Informe eliminado – "{POST_SUBJECT}"
-
-Ola {USERNAME},
-
-Estás a recibir esta notificación porque o informe que anviaches verbo da mensaxe "{POST_SUBJECT}" de "{TOPIC_TITLE}" en "{SITENAME}" foi suprimido por un moderador ou administrador.
-
-
-{EMAIL_SIG}

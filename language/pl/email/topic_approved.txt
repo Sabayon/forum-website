@@ -1,9 +1,0 @@
-Subject: {SITENAME} - Wątek "{TOPIC_TITLE}" został zaakceptowany
-
-Witaj {USERNAME},
-
-Twój wątek "{TOPIC_TITLE}" został zaakceptowany przez moderatora lub administratora.
-
-Link: {U_VIEW_TOPIC}
-
-{EMAIL_SIG}

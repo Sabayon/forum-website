@@ -1,7 +1,0 @@
-Subject: {SITENAME} - Zgłoszenie zamknięte - "{PM_SUBJECT}"
-
-Witaj {USERNAME},
-
-Wysłane przez Ciebie zgłoszenie dotyczące wiadomości "{PM_SUBJECT}" zostało zamknięte przez moderatora lub administratora. Jeśli masz jakieś pytania, to skontaktuj się z {CLOSER_NAME} za pomocą prywatnej wiadomości.
-
-{EMAIL_SIG}

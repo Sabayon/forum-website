@@ -1,8 +1,0 @@
-Subject: Conta ativada
-
-Olá {USERNAME},
-
-Sua conta em "{SITENAME}" está ativada agora, você poderá acessá-la pelo seu nome de usuário e respectiva senha que você recebeu no email anterior.
-
-{EMAIL_SIG}
-

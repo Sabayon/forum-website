@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_forums [English]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -43,6 +44,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Time in days between pruning events.',
 	'AUTO_PRUNE_VIEWED'			=> 'Auto-prune post viewed age',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Number of days since topic was viewed after which topic is removed.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Auto-prune shadow topics frequency',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Auto-prune shadow topics age',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Number of days after which shadow topic is removed.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Time in days between pruning events.',
 
 	'CONTINUE'						=> 'Continue',
 	'COPY_PERMISSIONS'				=> 'Copy permissions from',
@@ -82,7 +87,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DELETE_EXPLAIN'				=> 'The form below will allow you to delete a forum. If the forum is postable you are able to decide where you want to put all topics (or forums) it contained.',
 	'FORUM_DELETED'						=> 'Forum successfully deleted.',
 	'FORUM_DESC'						=> 'Description',
-	'FORUM_DESC_EXPLAIN'				=> 'Any HTML markup entered here will be displayed as is.',
+	'FORUM_DESC_EXPLAIN'				=> 'Any HTML markup entered here will be displayed as is. If the selected forum type is a category the description is not used.',
 	'FORUM_EDIT_EXPLAIN'				=> 'The form below will allow you to customise this forum. Please note that moderation and post count controls are set via forum permissions for each user or usergroup.',
 	'FORUM_IMAGE'						=> 'Forum image',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Location, relative to the phpBB root directory, of an additional image to associate with this forum.',
@@ -102,6 +107,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'The forum password is using an old hashing method and should be changed.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'The passwords you entered did not match.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Forum prune settings',
+	'FORUM_PRUNE_SHADOW'				=> 'Enable auto-pruning of shadow topics',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Prunes the forum of shadow topics, set the frequency/age parameters below.',
 	'FORUM_RESYNCED'					=> 'Forum “%s” successfully resynced',
 	'FORUM_RULES_EXPLAIN'				=> 'Forum rules are displayed at any page within the given forum.',
 	'FORUM_RULES_LINK'					=> 'Link to forum rules',
@@ -156,5 +163,3 @@ $lang = array_merge($lang, array(
 
 	'UNLOCKED'			=> 'Unlocked',
 ));
-
-?>

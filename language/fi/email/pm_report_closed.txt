@@ -1,8 +1,0 @@
-Subject: Ilmoitus suljettu - "{PM_SUBJECT}"
-
-Terve {USERNAME},
-
-Sait tämän viestin, koska ilmoitit yksityisviestin otsikolla "{PM_SUBJECT}", "{SITENAME}" -sivustolla. Ylläpitäjä tai valvoja on käsitellyt ilmoituksen. Ilmoitus on suljettu ja jos haluatte lisätietoja tapauksesta olkaa hyvä ja lähettäkää yksitysiviesti käyttäjälle nimeltä {CLOSER_NAME}.
-
-
-{EMAIL_SIG}

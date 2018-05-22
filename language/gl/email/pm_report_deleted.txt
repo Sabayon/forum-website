@@ -1,8 +1,0 @@
-Subject: Informe eliminado - "{PM_SUBJECT}"
-
-Ola {USERNAME},
-
-Estás a recibir esta notificación debido a que o informe que enviaches con respecto á mensaxe privada "{PM_SUBJECT}" en "{SITENAME}" foi eliminado por un moderador ou administrador.
-
-
-{EMAIL_SIG}

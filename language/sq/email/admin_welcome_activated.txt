@@ -1,7 +1,0 @@
-Subject: Llogaria u aktivizua
-
-Përshëndetje {USERNAME},
-
-Llogaria juaj pranë "{SITENAME}" u aktivizua. Ju tashmë mund të identifikoheni me pseudonimin dhe fjalëkalimin që morët me e-mail e mëparshëm.
-
-{EMAIL_SIG}

@@ -1,7 +1,0 @@
-Subject: Vaš uporabniški račun je bil deaktiviran
-
-Pozdravljeni, {USERNAME},
-
-Vaš uporabniški račun na spletni strani "{SITENAME}" je bil deaktiviran zaradi neaktivnosti. Preden se lahko ponovno prijavite, vam mora administrator ponovno aktivirati uporabniški račun. Ko bo administrator to storil, boste o tem obveščeni prek e-sporočila.
-
-{EMAIL_SIG}
